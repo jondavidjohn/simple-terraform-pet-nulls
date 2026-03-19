@@ -1,0 +1,4 @@
+pet_prefix      = "demo"
+null_context    = "local-test"
+operator_secret = "replace-me"
+run_label       = "one-shot"
