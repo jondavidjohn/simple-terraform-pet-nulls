@@ -15,7 +15,6 @@ variable "operator_secret" {
 }
 
 variable "run_label" {
-  description = "Ephemeral run label supplied at runtime and not persisted to state."
+  description = "Run label supplied at runtime."
   type        = string
-  ephemeral   = true
 }
